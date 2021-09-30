@@ -1,9 +1,11 @@
 # FACIAL RECOGNITION
 
-<summary>Table of Contents<summary>
+<details>
+<summary>Table of Contents</summary>
 	- Yolo3 & DNN
 	- Face-recognition package
-
+</details>
+	
 ## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
 
 ### Models
