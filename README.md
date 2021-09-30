@@ -1,5 +1,9 @@
 # FACIAL RECOGNITION
 
+## Project Description
+This project was done in a team of 3 members, each member applied a different approach from Face-recognition package, CascadeClassifer of OpenCv, to Yolo3 with DNN model. In this repository are the solution for Facial Identification using 2 approaches Yolo3 and Face-recognition package
+
+---------------------------------
 ## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
 
 ### Models
