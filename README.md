@@ -42,10 +42,10 @@
 | Xception| ImageNet|
 
 ### Description
-This model uses Xception architecture for Transfer Learning, and is trained on 300 images of 3 classes using the last 27 layers in the network. The classifier is a Dense layer with activaiton = 'softmax'
+This model uses Xception architecture for Transfer Learning, and is trained on 300 images of 3 classes using the last 27 layers in the network. The classifier is a Dense layer with a "softmax" activation function
 
 ### Training Data
-300 images of 3 classes have been used for the purpose of training the classifier of this project. The image is taken with either a laptop's webcam or cell-phone and cropped so that only the faces are in the images
+300 images of 3 classes have been used for the purpose of training the classifier of this project. The image is taken with either a laptop's webcam or cell-phone and cropped so that only the faces are in the images. Image Augmentation was applied to expand the dataset and reduce the potention of overfitting.
 
 ### Performance
 The accuracy for the final model is 100% 
