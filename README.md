@@ -3,8 +3,9 @@
 <details>
 <summary>Table of Contents</summary>
 	<p>
-* [Yolo3 & DNN](#1st Approach: Image Detection with YOLOv3 & Classfication by DNN)
-* [Face-recognition package](#
+* [1st Approach: Image Detection with YOLOv3 & Classfication by DNN](#Yolo3 & DNN)
+* [2nd Approach: Using face_recognition package](#Face-recognition package)
+	</p>
 </details>
 	
 ## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
