@@ -1,4 +1,4 @@
-# FACIAL RECOGNITION PROJECT
+# FACIAL RECOGNITION
 
 ## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
 
