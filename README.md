@@ -1,12 +1,9 @@
 # FACIAL RECOGNITION
 
-<details>
-<summary>Table of Contents</summary>
-	<p>
-* [1st Approach: Image Detection with YOLOv3 & Classfication by DNN](#Yolo3 & DNN)
-* [2nd Approach: Using face_recognition package](#Face-recognition package)
-	</p>
-</details>
+<details><summary>Table of Contents</summary><p>
+	
+* [1st Approach: Image Detection with YOLOv3 & Classfication by DNN](Yolo3 & DNN)
+</p></details>
 	
 ## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
 
