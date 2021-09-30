@@ -1,10 +1,5 @@
 # FACIAL RECOGNITION
 
-<details><summary>Table of Contents</summary><p>
-	
-* [1st Approach: Image Detection with YOLOv3 & Classfication by DNN](## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN)
-</p></details>
-	
 ## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
 
 ### Models
