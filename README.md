@@ -3,6 +3,7 @@
 <details>
 <summary>Table of Contents</summary>
 	- Yolo3 & DNN
+	
 	- Face-recognition package
 </details>
 	
