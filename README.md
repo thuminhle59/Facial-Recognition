@@ -1,6 +1,24 @@
 # FACIAL RECOGNITION PROJECT
 
-## 1st Approach: Using face_recognition package
+## 1st Approach: Image Detection with YOLOv3 & Classfication by DNN
+
+### Models
+| Model name      | Purpose | Pre-trained dataset | Transfer Learning |
+|-----------------|------------------|------------------|------------------|
+| Yolov3| Facial Detection | COCO | No |
+| Xception| Facial Identification | ImageNet | Yes |
+
+### Description
+This model uses Xception architecture for Transfer Learning, and is trained on 300 images of 3 classes using the last 27 layers in the network. The classifier is a Dense layer with a "softmax" activation function
+
+### Training Data
+300 images of 3 classes have been used for the purpose of training the classifier of this project. The image is taken with either a laptop's webcam or cell-phone and cropped so that only the faces are in the images. Image Augmentation was applied to expand the dataset and reduce the potention of overfitting.
+
+### Performance
+The accuracy for the final model is 100% 
+
+-------------------------------------------------
+## 2nd Approach: Using face_recognition package
 
 ### Package summary:
 - Recognize and manipulate faces from Python with the world's simplest face recognition library
@@ -32,20 +50,4 @@
   <img src="https://user-images.githubusercontent.com/87942072/135027253-2ddbff24-3e06-4232-802c-acd92cca945d.png" alt="Sublime's custom image"/>
 </p>
 
--------------------------------------------------
-## 2nd Approach: Image Detection with YOLOv3 & Classfication by DNN
 
-### Models
-| Model name      | Purpose | Pre-trained dataset | Transfer Learning |
-|-----------------|------------------|------------------|------------------|
-| Yolov3| Facial Detection | COCO | No |
-| Xception| Facial Identification | ImageNet | Yes |
-
-### Description
-This model uses Xception architecture for Transfer Learning, and is trained on 300 images of 3 classes using the last 27 layers in the network. The classifier is a Dense layer with a "softmax" activation function
-
-### Training Data
-300 images of 3 classes have been used for the purpose of training the classifier of this project. The image is taken with either a laptop's webcam or cell-phone and cropped so that only the faces are in the images. Image Augmentation was applied to expand the dataset and reduce the potention of overfitting.
-
-### Performance
-The accuracy for the final model is 100% 
