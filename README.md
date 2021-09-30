@@ -1,6 +1,6 @@
 # FACIAL RECOGNITION PROJECT
 
-## Using face_recognition package
+## 1st Approach: Using face_recognition package
 
 ### Package summary:
 - Recognize and manipulate faces from Python with the world's simplest face recognition library
@@ -33,9 +33,9 @@
 </p>
 
 -------------------------------------------------
-## Image Detection with YOLOv3 & Classfication by DNN
+## 2nd Approach: Image Detection with YOLOv3 & Classfication by DNN
 
-### Pre-trained models
+### Models
 | Model name      | Purpose | Pre-trained dataset | Transfer Learning |
 |-----------------|------------------|------------------|------------------|
 | Yolov3| Facial Detection | COCO | No |
