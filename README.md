@@ -36,10 +36,10 @@
 ## Image Detection with YOLOv3 & Classfication by DNN
 
 ### Pre-trained models
-| Model name      | Training dataset |
-|-----------------|------------------|
-| Yolov3| COCO |
-| Xception| ImageNet|
+| Model name      | Purpose |Training dataset |
+|-----------------|------------------|------------------|
+| Yolov3| Facial Detection | COCO |
+| Xception| Facial Identification | ImageNet |
 
 ### Description
 This model uses Xception architecture for Transfer Learning, and is trained on 300 images of 3 classes using the last 27 layers in the network. The classifier is a Dense layer with a "softmax" activation function
